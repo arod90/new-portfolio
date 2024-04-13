@@ -47,13 +47,13 @@ export const AboutMe = () => {
           </p>
 
           <p className="text-base md:text-base text-neutral-600 dark:text-neutral-400">
-            Full-stack Developer currently based in Quito, Ecuador. I've had the
-            wonderful chance to live, work, and study in places like Mexico,
-            China, Spain and the United States. I am passionate about creating
-            great user Interfaces, and have a knack for problem solving. Outside
-            of work I'm a huge fan of competitive paintball, E-sports, Music,
-            and the great outdoors. Looking to help people establish a great
-            online presence through unique web experiences.
+            Full-stack Developer currently based in Quito, Ecuador. I&apos;ve
+            had the wonderful chance to live, work, and study in places like
+            Mexico, China, Spain and the United States. I am passionate about
+            creating great user Interfaces, and have a knack for problem
+            solving. Outside of work I'm a huge fan of competitive paintball,
+            E-sports, Music, and the great outdoors. Looking to help people
+            establish a great online presence through unique web experiences.
           </p>
         </div>
         <div className="bg-zinc-900 flex-1 md:h-1/2 rounded-xl p-4 md:p-6">
@@ -70,7 +70,7 @@ export const AboutMe = () => {
             <div>
               <p>Codeworks</p>
               <p className="text-sm text-neutral-600 dark:text-neutral-400">
-                Full stack developer & Instructor
+                Full stack developer &amp; Instructor
               </p>
             </div>
           </div>
