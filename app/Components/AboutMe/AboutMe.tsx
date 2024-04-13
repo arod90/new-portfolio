@@ -35,9 +35,9 @@ export const AboutMe = () => {
         }
       >
         <div className="md:col-span-1 h-64 md:h-full w-11/12 mx-auto">
-          <div className="h-full bg-zinc-900 md:h-3/4 rounded-xl bg-cover bg-center md:bg-cover md:bg-center">
+          <div className="h-full bg-zinc-900 md:h-3/4 rounded-xl">
             <img
-              src={'/arod.jpg'}
+              src={'/arodcomp.jpg'}
               alt="image of andres with cotopaxi volcano in background"
               className="rounded-xl h-full w-full object-cover object-center md:object-cover md:object-center"
             />
