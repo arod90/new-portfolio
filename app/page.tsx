@@ -242,7 +242,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about" className="h-screen md:pt-32">
+      <section id="about" className="h-screen md:pt-20">
         <AboutMe />
       </section>
       <section
