@@ -34,8 +34,8 @@ export const AboutMe = () => {
           />
         }
       >
-        <div className="md:col-span-1 h-64 md:h-4/5 w-11/12 mx-auto">
-          <div className="h-full bg-zinc-900 md:full rounded-xl bg-cover bg-center md:bg-cover md:bg-center">
+        <div className="md:col-span-1 h-64 md:h-full w-11/12 mx-auto">
+          <div className="h-full bg-zinc-900 md:h-3/4 rounded-xl bg-cover bg-center md:bg-cover md:bg-center">
             <img
               src={'/arod.jpg'}
               alt="image of andres with cotopaxi volcano in background"
@@ -44,7 +44,7 @@ export const AboutMe = () => {
           </div>
         </div>
       </FollowerPointerCard>
-      <div className="md:col-span-1 space-y-4 w-11/12 md:h-4/5 md:flex md:flex-col">
+      <div className="md:col-span-1 space-y-4 w-11/12 md:h-3/4 md:flex md:flex-col">
         <div className="bg-zinc-900 flex-1 w-full md:h-1/2 rounded-xl p-4 md:p-6">
           <p className="text-3xl sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
             About me
