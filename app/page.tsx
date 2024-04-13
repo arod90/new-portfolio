@@ -154,18 +154,18 @@ const Toolkit2 = [
 const navItems = [
   {
     name: 'Home',
-    link: '/',
+    link: '#home',
     icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
   {
     name: 'About',
-    link: '/about',
+    link: '#about',
     icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
   {
-    name: 'Contact',
-    link: '/contact',
-    icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    name: 'Toolkit',
+    link: '#toolkit',
+    icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
 ];
 
@@ -221,7 +221,7 @@ const content = [
 export default function Home() {
   return (
     <>
-      <section className="h-screen">
+      <section id="home" className="h-screen">
         <NavBar navItems={navItems} />
         <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.03] relative overflow-hidden">
           <HeroSpot
@@ -242,10 +242,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="h-screen">
+      <section id="about" className="h-screen md:pt-32">
         <AboutMe />
       </section>
-      <section className="h-screen relative flex flex-col justify-center md:justify-items-start">
+      <section
+        id="toolkit"
+        className="h-screen relative flex flex-col justify-center md:justify-items-start"
+      >
         <BgBeams />
         <div className="text-6xl md:text-8xl mt-10 font-bold bg-clip-text text-left text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 md:m-8 md:mb-16 m-4">
           <span>Toolkit</span> <br />
@@ -261,7 +264,7 @@ export default function Home() {
         />
         <MovingCards items={Toolkit2} direction="right" speed="slow" />
       </section>
-      <section className="h-screen relative">
+      <section id="contact" className="h-screen relative">
         <div className=" p-4 h-full relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg">
           <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
           <BgBoxes />
