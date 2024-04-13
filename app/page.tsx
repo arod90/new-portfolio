@@ -223,7 +223,7 @@ export default function Home() {
     <>
       <section id="home" className="h-screen">
         <NavBar navItems={navItems} />
-        <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.03] relative overflow-hidden">
+        <div className="h-screen w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.03] relative overflow-hidden">
           <HeroSpot
             className="-top-40 left-0 md:left-60 md:-top-20 "
             fill="white"
@@ -242,7 +242,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about" className="h-screen md:pt-20">
+      <section id="about" className="h-screen">
         <AboutMe />
       </section>
       <section
