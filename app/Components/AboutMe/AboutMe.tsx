@@ -51,9 +51,10 @@ export const AboutMe = () => {
             had the wonderful chance to live, work, and study in places like
             Mexico, China, Spain and the United States. I am passionate about
             creating great user Interfaces, and have a knack for problem
-            solving. Outside of work I'm a huge fan of competitive paintball,
-            E-sports, Music, and the great outdoors. Looking to help people
-            establish a great online presence through unique web experiences.
+            solving. Outside of work I&apos;m a huge fan of competitive
+            paintball, E-sports, Music, and the great outdoors. Looking to help
+            people establish a great online presence through unique web
+            experiences.
           </p>
         </div>
         <div className="bg-zinc-900 flex-1 md:h-1/2 rounded-xl p-4 md:p-6">
