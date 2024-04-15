@@ -242,10 +242,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* <section id="about" className="h-screen">
+      <section id="about" className="h-screen">
         <AboutMe />
       </section>
-      <section
+      {/* <section
         id="toolkit"
         className="h-screen relative flex flex-col justify-center md:justify-items-start"
       >
