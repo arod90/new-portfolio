@@ -250,7 +250,7 @@ export default function Home() {
         className="h-screen relative flex flex-col justify-center md:justify-items-start"
       >
         <BgBeams />
-        <div className="text-6xl md:text-8xl font-bold bg-clip-text text-left text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 md:m-8 md:mb-16 m-4">
+        <div className="relative z-20 text-6xl md:text-8xl font-bold bg-clip-text text-left text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 md:m-8 md:mb-16 m-4">
           <span>Toolkit</span> <br />
           <p className="text-zinc-400 text-lg md:text-2xl font-medium md:ml-6 mt-4">
             My technical arsenal includes:

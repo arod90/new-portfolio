@@ -95,7 +95,7 @@ export const AboutMe = () => {
           />
         }
       >
-        <div className="md:col-span-1 mt-8 h-1/2 sm:mt-0 md:h-full w-11/12 mx-auto">
+        <div className="md:col-span-1 mt-8 h-1/2 sm:mt-0 md:h-full w-11/12 mx-auto sm:mx-0">
           <div className="h-full bg-zinc-900 md:h-full rounded-xl">
             <img
               src={'/arodcomp.jpg'}
