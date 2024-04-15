@@ -242,7 +242,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about" className="h-screen">
+      {/* <section id="about" className="h-screen">
         <AboutMe />
       </section>
       <section
@@ -270,7 +270,7 @@ export default function Home() {
           <BgBoxes />
           <ContactForm />
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
