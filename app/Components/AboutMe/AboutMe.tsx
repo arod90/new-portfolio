@@ -88,6 +88,7 @@ export const AboutMe = () => {
         </div>
       </div>
       <FollowerPointerCard
+        // className="hidden sm:block"
         title={
           <TitleComponent
             title={'Cotopaxi national park, Ecuador'}
