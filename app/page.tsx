@@ -246,11 +246,11 @@ export default function Home() {
       <section id="about" className="h-screen">
         <AboutMe />
       </section>
-      {/* <section
+      <section
         id="toolkit"
         className="h-screen relative flex flex-col justify-center md:justify-items-start"
       >
-        <BgBeams />
+        {/* <BgBeams /> */}
         <div className="relative z-20 text-6xl md:text-8xl font-bold bg-clip-text text-left text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 md:m-8 md:mb-16 m-4">
           <span>Toolkit</span> <br />
           <p className="text-zinc-400 text-lg md:text-2xl font-medium md:ml-6 mt-4">
@@ -264,11 +264,11 @@ export default function Home() {
           speed="slow"
         />
         <MovingCards items={Toolkit2} direction="right" speed="slow" />
-      </section> */}
+      </section>
       <section id="contact" className="h-screen relative">
         <div className=" p-4 h-full relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg">
           <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
-          <BgBoxes />
+          {/* <BgBoxes /> */}
           <ContactForm />
         </div>
       </section>
