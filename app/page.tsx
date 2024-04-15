@@ -221,7 +221,7 @@ const content = [
 export default function Home() {
   return (
     <>
-      <section id="home" className="h-screen">
+      <section id="home" className="h-screen overflow-hidden">
         <NavBar navItems={navItems} />
         <div className="h-screen w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.03] relative overflow-hidden">
           <HeroSpot
