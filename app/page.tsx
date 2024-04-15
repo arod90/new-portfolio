@@ -245,7 +245,7 @@ export default function Home() {
       <section id="about" className="h-screen">
         <AboutMe />
       </section>
-      {/* <section
+      <section
         id="toolkit"
         className="h-screen relative flex flex-col justify-center md:justify-items-start"
       >
@@ -270,7 +270,7 @@ export default function Home() {
           <BgBoxes />
           <ContactForm />
         </div>
-      </section> */}
+      </section>
     </>
   );
 }
