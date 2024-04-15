@@ -13,7 +13,7 @@ import { cn } from '@/utils/cn';
 import Image from 'next/image';
 import {
   IconHome,
-  IconMessage,
+  IconBrandGit,
   IconUser,
   IconBrandReact,
   IconBrandAngular,
@@ -27,7 +27,7 @@ import {
   IconAsterisk,
   IconBrandJavascript,
   IconBrandTypescript,
-  IconBrandRedux,
+  IconApi,
   IconBrandFirebase,
   IconBrandVercel,
   IconBrandPlanetscale,
@@ -150,6 +150,19 @@ const Toolkit2 = [
     ),
     name3: 'Github',
   },
+  {
+    id: 7,
+    icon: (
+      <IconBrandVscode className="h-10 w-10 text-neutral-500 dark:text-white" />
+    ),
+    name: 'VsCode',
+    icon2: (
+      <IconBrandGit className="h-10 w-10 text-neutral-500 dark:text-white" />
+    ),
+    name2: 'Git',
+    icon3: <IconApi className="h-10 w-10 text-neutral-500 dark:text-white" />,
+    name3: 'APIs',
+  },
 ];
 
 const navItems = [
@@ -233,7 +246,7 @@ export default function Home() {
             <div className="text-6xl md:text-8xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
               <span>Andres Rodriguez</span> <br />
               <span className="text-4xl md:text-7xl ">
-                I construct the web.
+                constructing the web.
               </span>
             </div>
             <TextGenerate
