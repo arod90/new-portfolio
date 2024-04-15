@@ -23,6 +23,7 @@ import {
   IconBrandMongodb,
   IconBrandNextjs,
   IconBrandVscode,
+  IconTool,
   IconAsterisk,
   IconBrandJavascript,
   IconBrandTypescript,
@@ -165,7 +166,7 @@ const navItems = [
   {
     name: 'Toolkit',
     link: '#toolkit',
-    icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    icon: <IconTool className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
 ];
 
@@ -245,7 +246,7 @@ export default function Home() {
       <section id="about" className="h-screen">
         <AboutMe />
       </section>
-      <section
+      {/* <section
         id="toolkit"
         className="h-screen relative flex flex-col justify-center md:justify-items-start"
       >
@@ -263,7 +264,7 @@ export default function Home() {
           speed="slow"
         />
         <MovingCards items={Toolkit2} direction="right" speed="slow" />
-      </section>
+      </section> */}
       <section id="contact" className="h-screen relative">
         <div className=" p-4 h-full relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg">
           <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
