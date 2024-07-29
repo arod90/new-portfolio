@@ -27,7 +27,7 @@ export const AboutMe = () => {
   return (
     <div className="grid md:grid-cols-2 mt-6 h-full sm:h-3/5 max-w-7xl mx-auto md:p-10">
       <div className="md:col-span-1 space-y-4 w-11/12 h-full md:h-full md:flex md:flex-col mx-auto">
-        <div className="bg-zinc-900 flex-1 w-full h-1/2 md:h-full rounded-xl p-4 md:p-4">
+        <div className="bg-zinc-900 flex-1 w-full h-fit sm:h-1/2 md:h-full rounded-xl p-4 md:p-4">
           <p className="text-3xl sm:text-3xl text-black mb-2 dark:text-neutral-200">
             About me
           </p>
@@ -43,7 +43,7 @@ export const AboutMe = () => {
             experiences.
           </p>
         </div>
-        <div className="bg-zinc-900 flex-1 h-1/2 md:h-3/4 rounded-xl p-4 md:p-6">
+        <div className="bg-zinc-900 flex-1 sm:h-1/2 md:h-3/4 rounded-xl p-4 md:p-6 h-fit">
           <p className="text-base sm:text-3xl text-black dark:text-neutral-200 mb-8">
             Latest roles
           </p>
