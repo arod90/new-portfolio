@@ -151,7 +151,7 @@ const Toolkit2 = [
     name3: 'Github',
   },
   {
-    id: 7,
+    id: 8,
     icon: (
       <IconBrandVscode className="h-10 w-10 text-neutral-500 dark:text-white" />
     ),
@@ -280,7 +280,7 @@ export default function Home() {
       </section>
       <section id="contact" className="h-screen relative">
         <div className=" p-4 h-full relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg">
-          <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+          {/* <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" /> */}
           <BgBoxes />
           <ContactForm />
         </div>
