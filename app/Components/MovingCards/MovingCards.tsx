@@ -104,6 +104,7 @@ export const MovingCards = ({
         className
       )}
       {...bind()}
+      style={{ touchAction: 'none' }}
     >
       <ul
         ref={scrollerRef}
